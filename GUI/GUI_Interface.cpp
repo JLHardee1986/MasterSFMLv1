@@ -146,7 +146,7 @@ void GUI_Interface::OnClick(const sf::Vector2f& l_mousePos) {
 		event.m_element = itr.second->m_name;
 		if (!itr.second->IsControl()) {
 			position += m_contentPositionOffset;
-			scrollOffset = sf::Vector2f((static_cast<int>(m_scrollHorizontal)), (static_cast<float>(m_scrollVertical)));
+			scrollOffset = sf::Vector2f((float)(static_cast<int>(m_scrollHorizontal)), (float)(static_cast<float>(m_scrollVertical)));
 		}
 		event.m_clickCoords.x = l_mousePos.x - interfacePos.x - position.x + scrollOffset.x;
 		event.m_clickCoords.y = l_mousePos.y - interfacePos.y - position.y + scrollOffset.y;
@@ -178,7 +178,7 @@ void GUI_Interface::OnRelease() {
 		auto scrollOffset = sf::Vector2f(0.f, 0.f);
 		if (!itr.second->IsControl()) {
 			position += m_contentPositionOffset;
-			scrollOffset = sf::Vector2f((static_cast<int>(m_scrollHorizontal)), (static_cast<float>(m_scrollVertical)));
+			scrollOffset = sf::Vector2f((float)(static_cast<int>(m_scrollHorizontal)), (float)(static_cast<float>(m_scrollVertical)));
 		}
 		event.m_clickCoords.x = mousePos.x - interfacePos.x - position.x + scrollOffset.x;
 		event.m_clickCoords.y = mousePos.y - interfacePos.y - position.y + scrollOffset.y;

@@ -24,9 +24,9 @@ public:
 private:
 	void ApplyFriction(float l_dT, sf::Vector3f& l_position, sf::Vector3f& l_velocity) {
 		sf::Vector2i tileCoords = sf::Vector2i(
-			static_cast<int>(floor(l_position.x / Sheet::Tile_Size)),
-			static_cast<int>(floor(l_position.y / Sheet::Tile_Size)));
-		auto tile = m_map->GetTile(tileCoords.x, tileCoords.y, 0);
+			static_cast<int>(floor(l_position.x / (float)static_cast<int>(Sheet::Tile_Size))),
+			static_cast<int>(floor(l_position.y / (float)static_cast<int>(Sheet::Tile_Size))));
+		auto tile = m_map->GetTile((unsigned int)tileCoords.x, (unsigned int)tileCoords.y, 0U);
 		sf::Vector2f friction;
 		if (!tile) { friction = m_map->GetDefaultTile()->m_friction; } else { friction = tile->m_properties->m_friction; }
 		friction.x *= std::abs(l_velocity.x);

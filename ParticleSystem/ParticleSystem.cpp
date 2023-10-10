@@ -92,7 +92,7 @@ Emitter* ParticleSystem::FindEmitter(const sf::Vector2f& l_point, const sf::Vect
 	if (m_emitterItr == m_emitters.end()) { return nullptr; }
 	for (auto& emitter : m_emitterItr->second) {
 		auto position = emitter->GetPosition();
-		auto elevation = std::floor(static_cast<int>(position.z / Sheet::Tile_Size));
+		auto elevation = std::floor(static_cast<int>(position.z / (float)static_cast<int>(Sheet::Tile_Size)));
 		if (l_layerMax != -1 && (elevation < l_layerMin || elevation > l_layerMax)) { continue; }
 		sf::FloatRect box;
 		box.left = position.x - (l_area.x / 2.f);
@@ -174,7 +174,7 @@ void ParticleSystem::ReadMapLine(const std::string& l_type, std::stringstream& l
 		size_t emitRate;
 		std::string generatorType;
 		l_stream >> generatorType >> position.x >> position.y >> position.z >> emitRate;
-		AddEmitter(position, generatorType, emitRate, m_stateManager->GetNextToLast());
+		AddEmitter(position, generatorType, (unsigned int)emitRate, m_stateManager->GetNextToLast());
 	} else if (l_type == "ForceApplicator") {
 		sf::Vector3f position;
 		sf::Vector3f force;

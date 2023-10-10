@@ -43,7 +43,7 @@ private:
 
 		sf::Vector3f distance = l_center - l_position;
 		sf::Vector3f a_distance = sf::Vector3f(std::abs(distance.x), std::abs(distance.y), std::abs(distance.z));
-		float magnitude = std::sqrt(std::pow(a_distance.x, 2) + std::pow(a_distance.y, 2) + std::pow(a_distance.z, 2));
+		float magnitude = (float)(std::sqrt(std::pow(a_distance.x, 2) + std::pow(a_distance.y, 2) + std::pow(a_distance.z, 2)));
 		sf::Vector3f normal = sf::Vector3f(
 			a_distance.x / magnitude,
 			a_distance.y / magnitude,

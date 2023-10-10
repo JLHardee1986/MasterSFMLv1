@@ -12,7 +12,7 @@ public:
 		auto& sizes = l_particles->m_currentSize;
 		for (size_t i = 0; i < l_particles->m_countAlive; ++i) { drawables[i].setSize(sizes[i]); }
 		for (size_t i = 0; i < l_particles->m_countAlive; ++i) {
-			float ScaleFactor = std::max((positions[i].z / Sheet::Tile_Size) * ScaleToElevationRatio, 1.f);
+			float ScaleFactor = std::max((positions[i].z / (float)static_cast<int>(Sheet::Tile_Size)) * ScaleToElevationRatio, 1.f);
 			drawables[i].setScale(ScaleFactor, ScaleFactor);
 		}
 		auto& colors = l_particles->m_currentColor;
