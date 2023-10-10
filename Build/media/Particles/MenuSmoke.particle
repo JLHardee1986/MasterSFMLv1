@@ -1,0 +1,9 @@
+Name MenuSmoke
+LinePosition y 256
+SizeRange 256 128
+ColorRange 200 200 200 100 0 0 0 0
+RandomLifespan 12 12
+RandomVelocity 80 100 -15 15 0 0
+RotationRange 0 180
+Texture Smoke
+Properties 0 0

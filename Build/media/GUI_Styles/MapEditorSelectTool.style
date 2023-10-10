@@ -1,0 +1,17 @@
+State Neutral
+Size 100 16
+Glyph SelectIcon
+BgColor 255 255 255 50
+TextColor 255 255 255 255
+TextSize 12
+Font Main
+TextPadding 16 0
+/State
+
+State Hover
+BgColor 255 255 255 200
+/State
+
+State Clicked
+BgColor 220 255 220 220
+/State

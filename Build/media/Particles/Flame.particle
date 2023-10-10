@@ -1,0 +1,9 @@
+Name Flame
+PointPosition
+SizeRange 32 8
+ColorRange 255 255 255 100 255 0 0 0
+RandomLifespan 6 6
+RandomVelocity -10 10 -50 -80 5 10
+RotationRange 0 45
+Texture Flame
+Properties 0 1

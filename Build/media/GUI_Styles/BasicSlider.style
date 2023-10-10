@@ -1,0 +1,13 @@
+State Neutral
+Size 12 12
+BgColor 50 50 50 200
+ElementColor 100 100 100 255
+/State
+
+State Hover
+ElementColor 155 155 155 200
+/State
+
+State Clicked
+ElementColor 200 200 200 200
+/State

@@ -1,0 +1,5 @@
+Interface MapEditorTileSelect MapEditorTileSelect.style 0 0 Movable Title "Tile selection"
+Element Label Close 320 0 MapEditorSelectionOptionsButton.style Control "Close"
+Element Scrollbar VSlider 0 0 BasicSlider.style Control Vertical
+Element Scrollbar HSlider 0 0 BasicSlider.style Control Horizontal
+Element Sprite TileSprite 0 0 MapEditorTileSprite.style Content

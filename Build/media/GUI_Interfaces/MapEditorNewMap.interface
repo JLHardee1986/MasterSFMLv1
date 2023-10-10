@@ -1,0 +1,10 @@
+Interface MapEditorNewMap MapEditorNewMap.style 0 0 Immovable NoTitle "New Map"
+Element Label SizeLabel 0 0 SimpleLabel.style Content "Map Size:"
+Element TextField Size_X 52 0 BasicTextfield.style Content "32"
+Element TextField Size_Y 92 0 BasicTextfield.style Content "32"
+Element Label FrictionLabel 0 18 SimpleLabel.style Content "Default friction:"
+Element TextField Friction 82 18 BasicTextfield.style Content "1"
+Element Label SheetLabel 0 36 SimpleLabel.style Content "Tilesheet:"
+Element DropDownMenu SheetDropdown 50 36 BasicDropdownMenu.style Content BasicDropdown.interface
+Element Label CreateMap 20 60 MapEditorSelectionOptionsButton.style Content "Create"
+Element Label Close 80 60 MapEditorSelectionOptionsButton.style Content "Close"

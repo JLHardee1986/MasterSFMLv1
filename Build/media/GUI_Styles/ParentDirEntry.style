@@ -1,0 +1,17 @@
+State Neutral
+Size 280 16
+Glyph FolderBackIcon
+BgColor 255 255 255 100
+TextColor 255 255 255 255
+TextSize 13
+Font Main
+TextPadding 18 0
+/State
+
+State Hover
+BgColor 255 255 255 150
+/State
+
+State Clicked
+BgColor 255 255 255 200
+/State

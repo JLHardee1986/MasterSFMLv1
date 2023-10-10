@@ -1,0 +1,2 @@
+Interface BasicDropdown BasicDropdown.style 0 0 Immovable NoTitle ""
+Element Label Entry_ 0 0 BasicDropdownEntry.style Content "Content"

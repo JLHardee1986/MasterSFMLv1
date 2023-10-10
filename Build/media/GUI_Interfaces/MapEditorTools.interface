@@ -1,0 +1,6 @@
+Interface MapEditorTools MapEditorTools.style 0 0 Movable Title "Tools"
+Element Label Pan 0 0 MapEditorPanTool.style Content "Pan"
+Element Label Selection 0 18 MapEditorSelectTool.style Content "Selection"
+Element Label Brush 0 36 MapEditorBrushTool.style Content "Brush"
+Element Label PaintCan 0 54 MapEditorPaintTool.style Content "Paint can (WIP)"
+Element Label Eraser 0 72 MapEditorEraserTool.style Content "Eraser (WIP)"

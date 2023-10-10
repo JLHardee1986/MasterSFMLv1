@@ -1,0 +1,8 @@
+Name WaterSparkle
+PointPosition
+SizeRange 1 1
+ColorRange 100 255 255 200 100 255 255 0
+RandomLifespan 2 6
+RandomVelocity 30 -30 30 -5 20 30
+RotationRange 0 360
+Properties 1 0

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2281171d-dd96-476b-9ed1-e4de16051386}</ProjectGuid>
+    <RootNamespace>MasterSFMLv1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\sdks\SFML_v2.6_64-Bit\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\sdks\SFML_v2.6_64-Bit\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\sdks\SFML_v2.6_64-Bit\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\sdks\SFML_v2.6_64-Bit\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\sdks\SFML_v2.6_64-Bit\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\sdks\SFML_v2.6_64-Bit\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\sdks\SFML_v2.6_64-Bit\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\sdks\SFML_v2.6_64-Bit\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>shlwapi.lib;openal32.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>shlwapi.lib;openal32.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>shlwapi.lib;openal32.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>shlwapi.lib;openal32.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ECS\Core\Entity_Manager.cpp" />
+    <ClCompile Include="ECS\Core\System_Manager.cpp" />
+    <ClCompile Include="ECS\Core\S_Base.cpp" />
+    <ClCompile Include="ECS\Systems\S_Collision.cpp" />
+    <ClCompile Include="ECS\Systems\S_Control.cpp" />
+    <ClCompile Include="ECS\Systems\S_Movement.cpp" />
+    <ClCompile Include="ECS\Systems\S_Renderer.cpp" />
+    <ClCompile Include="ECS\Systems\S_SheetAnimation.cpp" />
+    <ClCompile Include="ECS\Systems\S_Sound.cpp" />
+    <ClCompile Include="ECS\Systems\S_State.cpp" />
+    <ClCompile Include="EventSystem\EventManager.cpp" />
+    <ClCompile Include="GUI\Elements\GUI_CheckBox.cpp" />
+    <ClCompile Include="GUI\Elements\GUI_DropDownMenu.cpp" />
+    <ClCompile Include="GUI\Elements\GUI_Label.cpp" />
+    <ClCompile Include="GUI\Elements\GUI_Scrollbar.cpp" />
+    <ClCompile Include="GUI\Elements\GUI_Sprite.cpp" />
+    <ClCompile Include="GUI\Elements\GUI_TextField.cpp" />
+    <ClCompile Include="GUI\GUI_Element.cpp" />
+    <ClCompile Include="GUI\GUI_Interface.cpp" />
+    <ClCompile Include="GUI\GUI_Manager.cpp" />
+    <ClCompile Include="GUI\Specialized\FileManager.cpp" />
+    <ClCompile Include="GUI\Specialized\VerticalDropDown.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapSystem\Map.cpp" />
+    <ClCompile Include="MapSystem\TileMap.cpp" />
+    <ClCompile Include="MapSystem\TileSet.cpp" />
+    <ClCompile Include="ParticleSystem\Emitter.cpp" />
+    <ClCompile Include="ParticleSystem\ParticleSystem.cpp" />
+    <ClCompile Include="SoundSystem\SoundManager.cpp" />
+    <ClCompile Include="SpriteSystem\Anim_Base.cpp" />
+    <ClCompile Include="SpriteSystem\Anim_Directional.cpp" />
+    <ClCompile Include="SpriteSystem\SpriteSheet.cpp" />
+    <ClCompile Include="StateSystem\StateManager.cpp" />
+    <ClCompile Include="StateSystem\States\State_Loading.cpp" />
+    <ClCompile Include="ThreadWorkers\FileLoader.cpp" />
+    <ClCompile Include="WindowSystem\Renderer.cpp" />
+    <ClCompile Include="WindowSystem\Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ECS\Components\C_Collidable.h" />
+    <ClInclude Include="ECS\Components\C_Controller.h" />
+    <ClInclude Include="ECS\Components\C_Drawable.h" />
+    <ClInclude Include="ECS\Components\C_Movable.h" />
+    <ClInclude Include="ECS\Components\C_Position.h" />
+    <ClInclude Include="ECS\Components\C_SoundEmitter.h" />
+    <ClInclude Include="ECS\Components\C_SoundListener.h" />
+    <ClInclude Include="ECS\Components\C_SpriteSheet.h" />
+    <ClInclude Include="ECS\Components\C_State.h" />
+    <ClInclude Include="ECS\Core\C_Base.h" />
+    <ClInclude Include="ECS\Core\Entity_Manager.h" />
+    <ClInclude Include="ECS\Core\System_Manager.h" />
+    <ClInclude Include="ECS\Core\S_Base.h" />
+    <ClInclude Include="ECS\ECS_Types.h" />
+    <ClInclude Include="ECS\EntityEvents.h" />
+    <ClInclude Include="ECS\EntityMessages.h" />
+    <ClInclude Include="ECS\Systems\S_Collision.h" />
+    <ClInclude Include="ECS\Systems\S_Control.h" />
+    <ClInclude Include="ECS\Systems\S_Movement.h" />
+    <ClInclude Include="ECS\Systems\S_Renderer.h" />
+    <ClInclude Include="ECS\Systems\S_SheetAnimation.h" />
+    <ClInclude Include="ECS\Systems\S_Sound.h" />
+    <ClInclude Include="ECS\Systems\S_State.h" />
+    <ClInclude Include="EventSystem\Binding.h" />
+    <ClInclude Include="EventSystem\EventDetails.h" />
+    <ClInclude Include="EventSystem\EventInfo.h" />
+    <ClInclude Include="EventSystem\EventManager.h" />
+    <ClInclude Include="EventSystem\EventTypes.h" />
+    <ClInclude Include="GUI\Elements\GUI_CheckBox.h" />
+    <ClInclude Include="GUI\Elements\GUI_DropDownMenu.h" />
+    <ClInclude Include="GUI\Elements\GUI_Label.h" />
+    <ClInclude Include="GUI\Elements\GUI_Scrollbar.h" />
+    <ClInclude Include="GUI\Elements\GUI_Sprite.h" />
+    <ClInclude Include="GUI\Elements\GUI_TextField.h" />
+    <ClInclude Include="GUI\GUI_Element.h" />
+    <ClInclude Include="GUI\GUI_Event.h" />
+    <ClInclude Include="GUI\GUI_Interface.h" />
+    <ClInclude Include="GUI\GUI_Manager.h" />
+    <ClInclude Include="GUI\GUI_Style.h" />
+    <ClInclude Include="GUI\Specialized\FileManager.h" />
+    <ClInclude Include="GUI\Specialized\VerticalDropDown.h" />
+    <ClInclude Include="MapSystem\Map.h" />
+    <ClInclude Include="MapSystem\MapDefinitions.h" />
+    <ClInclude Include="MapSystem\MapHelpers.h" />
+    <ClInclude Include="MapSystem\MapLoadee.h" />
+    <ClInclude Include="MapSystem\TileInfo.h" />
+    <ClInclude Include="MapSystem\TileMap.h" />
+    <ClInclude Include="MapSystem\TileSet.h" />
+    <ClInclude Include="Observer\Communicator.h" />
+    <ClInclude Include="Observer\Message.h" />
+    <ClInclude Include="Observer\MessageHandler.h" />
+    <ClInclude Include="Observer\Observer.h" />
+    <ClInclude Include="ParticleSystem\BaseGenerator.h" />
+    <ClInclude Include="ParticleSystem\BaseUpdater.h" />
+    <ClInclude Include="ParticleSystem\Emitter.h" />
+    <ClInclude Include="ParticleSystem\ForceApplicator.h" />
+    <ClInclude Include="ParticleSystem\Generators\AreaPosition.h" />
+    <ClInclude Include="ParticleSystem\Generators\ColorRange.h" />
+    <ClInclude Include="ParticleSystem\Generators\LinePosition.h" />
+    <ClInclude Include="ParticleSystem\Generators\PointPosition.h" />
+    <ClInclude Include="ParticleSystem\Generators\Properties.h" />
+    <ClInclude Include="ParticleSystem\Generators\RandomColor.h" />
+    <ClInclude Include="ParticleSystem\Generators\RandomLifespan.h" />
+    <ClInclude Include="ParticleSystem\Generators\RandomSize.h" />
+    <ClInclude Include="ParticleSystem\Generators\RandomVelocity.h" />
+    <ClInclude Include="ParticleSystem\Generators\RotationRange.h" />
+    <ClInclude Include="ParticleSystem\Generators\SizeRange.h" />
+    <ClInclude Include="ParticleSystem\Generators\Texture.h" />
+    <ClInclude Include="ParticleSystem\ParticleContainer.h" />
+    <ClInclude Include="ParticleSystem\ParticleSystem.h" />
+    <ClInclude Include="ParticleSystem\Updaters\Collisions.h" />
+    <ClInclude Include="ParticleSystem\Updaters\Drawables.h" />
+    <ClInclude Include="ParticleSystem\Updaters\Forces.h" />
+    <ClInclude Include="ParticleSystem\Updaters\Interpolator.h" />
+    <ClInclude Include="ParticleSystem\Updaters\Lifespan.h" />
+    <ClInclude Include="ParticleSystem\Updaters\Spatial.h" />
+    <ClInclude Include="Resources\AudioManager.h" />
+    <ClInclude Include="Resources\FontManager.h" />
+    <ClInclude Include="Resources\ResourceManager.h" />
+    <ClInclude Include="Resources\TextureManager.h" />
+    <ClInclude Include="SharedContext.h" />
+    <ClInclude Include="SoundSystem\SoundManager.h" />
+    <ClInclude Include="SoundSystem\SoundProps.h" />
+    <ClInclude Include="SpriteSystem\Anim_Base.h" />
+    <ClInclude Include="SpriteSystem\Anim_Directional.h" />
+    <ClInclude Include="SpriteSystem\SpriteSheet.h" />
+    <ClInclude Include="StateSystem\BaseState.h" />
+    <ClInclude Include="StateSystem\StateDependent.h" />
+    <ClInclude Include="StateSystem\StateManager.h" />
+    <ClInclude Include="StateSystem\States\State_Loading.h" />
+    <ClInclude Include="StateSystem\StateTypes.h" />
+    <ClInclude Include="ThreadWorkers\FileLoader.h" />
+    <ClInclude Include="ThreadWorkers\Worker.h" />
+    <ClInclude Include="Types\Bitmask.h" />
+    <ClInclude Include="Types\Directions.h" />
+    <ClInclude Include="Types\Event_Queue.h" />
+    <ClInclude Include="Utilities\Helpers.h" />
+    <ClInclude Include="Utilities\RandomGenerator.h" />
+    <ClInclude Include="Utilities\Utilities.h" />
+    <ClInclude Include="WindowSystem\Renderer.h" />
+    <ClInclude Include="WindowSystem\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Build\audio.cfg" />
+    <None Include="Build\fonts.cfg" />
+    <None Include="Build\keys.cfg" />
+    <None Include="Build\media\Audio\Electrix_NES.ogg" />
+    <None Include="Build\media\Audio\footstep.ogg" />
+    <None Include="Build\media\Audio\TownTheme.ogg" />
+    <None Include="Build\media\Entities\Player.entity" />
+    <None Include="Build\media\Entities\Skeleton.entity" />
+    <None Include="Build\media\GUI_Interfaces\BasicDropdown.interface" />
+    <None Include="Build\media\GUI_Interfaces\FileManager.interface" />
+    <None Include="Build\media\GUI_Interfaces\MainMenu.interface" />
+    <None Include="Build\media\GUI_Interfaces\MainMenuToolkit.interface" />
+    <None Include="Build\media\GUI_Interfaces\MapEditorNewMap.interface" />
+    <None Include="Build\media\GUI_Interfaces\MapEditorSelectionOptions.interface" />
+    <None Include="Build\media\GUI_Interfaces\MapEditorTileSelect.interface" />
+    <None Include="Build\media\GUI_Interfaces\MapEditorTools.interface" />
+    <None Include="Build\media\GUI_Interfaces\MapEditorTop.interface" />
+    <None Include="Build\media\GUI_Styles\BasicDropdown.style" />
+    <None Include="Build\media\GUI_Styles\BasicDropdownEntry.style" />
+    <None Include="Build\media\GUI_Styles\BasicDropdownMenu.style" />
+    <None Include="Build\media\GUI_Styles\BasicSlider.style" />
+    <None Include="Build\media\GUI_Styles\BasicTextfield.style" />
+    <None Include="Build\media\GUI_Styles\CenteredLabel.style" />
+    <None Include="Build\media\GUI_Styles\CloseButton.style" />
+    <None Include="Build\media\GUI_Styles\FileEntry.style" />
+    <None Include="Build\media\GUI_Styles\FileManager.style" />
+    <None Include="Build\media\GUI_Styles\FileTextfield.style" />
+    <None Include="Build\media\GUI_Styles\FolderEntry.style" />
+    <None Include="Build\media\GUI_Styles\MainMenu.style" />
+    <None Include="Build\media\GUI_Styles\MainMenuLabel.style" />
+    <None Include="Build\media\GUI_Styles\MainMenuTitle.style" />
+    <None Include="Build\media\GUI_Styles\MainMenuToolkit.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorBrushTool.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorEraserTool.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorNewMap.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorPaintTool.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorPanTool.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorSelectionOptions.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorSelectionOptionsButton.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorSelectTool.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorSingleCharButton.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorTileSelect.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorTileSprite.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorTools.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorTop.style" />
+    <None Include="Build\media\GUI_Styles\MapEditorTopButton.style" />
+    <None Include="Build\media\GUI_Styles\ParentDirEntry.style" />
+    <None Include="Build\media\GUI_Styles\SaveButton.style" />
+    <None Include="Build\media\GUI_Styles\SimpleLabel.style" />
+    <None Include="Build\media\Maps\map1.map" />
+    <None Include="Build\media\Particles\AutumnLeaf.particle" />
+    <None Include="Build\media\Particles\Blood.particle" />
+    <None Include="Build\media\Particles\Flame.particle" />
+    <None Include="Build\media\Particles\MenuFlame.particle" />
+    <None Include="Build\media\Particles\MenuSmoke.particle" />
+    <None Include="Build\media\Particles\Smoke.particle" />
+    <None Include="Build\media\Particles\WaterSparkle.particle" />
+    <None Include="Build\media\Shaders\default.frag" />
+    <None Include="Build\media\Shaders\default.vert" />
+    <None Include="Build\media\Sounds\footstep.sound" />
+    <None Include="Build\media\Spritesheets\Player.sheet" />
+    <None Include="Build\media\Spritesheets\Skeleton.sheet" />
+    <None Include="Build\media\Tilesheets\Sheet1.tilesheet" />
+    <None Include="Build\textures.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Build\media\Fonts\Vegur-Regular.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Build\media\Textures\ADOM-OGA-UI.png" />
+    <Image Include="Build\media\Textures\AutumnLeaf.png" />
+    <Image Include="Build\media\Textures\Brush-Icon.png" />
+    <Image Include="Build\media\Textures\Close-Icon.png" />
+    <Image Include="Build\media\Textures\Eraser-Icon.png" />
+    <Image Include="Build\media\Textures\File-Icon.png" />
+    <Image Include="Build\media\Textures\flame.png" />
+    <Image Include="Build\media\Textures\Folder-Icon.png" />
+    <Image Include="Build\media\Textures\FolderBack-Icon.png" />
+    <Image Include="Build\media\Textures\intro.png" />
+    <Image Include="Build\media\Textures\PaintCan-Icon.png" />
+    <Image Include="Build\media\Textures\Pan-Icon.png" />
+    <Image Include="Build\media\Textures\PlayerSheet.png" />
+    <Image Include="Build\media\Textures\Save-Icon.png" />
+    <Image Include="Build\media\Textures\Select-Icon.png" />
+    <Image Include="Build\media\Textures\SkeletonSheet.png" />
+    <Image Include="Build\media\Textures\smoke.png" />
+    <Image Include="Build\media\Textures\testsheet.png" />
+    <Image Include="Build\media\Textures\tilesheet.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

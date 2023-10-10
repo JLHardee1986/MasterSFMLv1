@@ -1,0 +1,9 @@
+Name Smoke
+PointPosition
+SizeRange 8 8
+ColorRange 255 255 255 100 0 0 0 0
+RandomLifespan 2 6
+RandomVelocity -30 30 -30 -50 20 30
+RotationRange 0 180
+Texture Smoke
+Properties 0 0

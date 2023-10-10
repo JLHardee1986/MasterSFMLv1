@@ -1,0 +1,8 @@
+Interface MainMenuToolkit MainMenuToolkit.style 0 0 Immovable NoTitle "Main menu"
+Element Label Title 100 0 MainMenuTitle.style Content "Main menu:"
+Element Label MapEditor 0 32 MainMenuLabel.style Content "Map Editor"
+Element Label EntityEditor 0 68 MainMenuLabel.style Content "Entity Editor"
+Element Label x1 0 104 MainMenuLabel.style Content "x1"
+Element Label x2 0 140 MainMenuLabel.style Content "x2"
+Element Label Credits 0 176 MainMenuLabel.style Content "CREDITS"
+Element Label Quit 0 212 MainMenuLabel.style Content "EXIT"

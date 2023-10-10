@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ECS">
+      <UniqueIdentifier>{72511388-9e47-458f-bbbc-f648f4757b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EventSystem">
+      <UniqueIdentifier>{bf408a01-0e57-47e3-b400-37633a199767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{c8983543-8e6c-4d0e-be1b-585b4c2608fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapSystem">
+      <UniqueIdentifier>{af6f4abf-bfd5-4468-ba97-4d3f3c0565f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Observer">
+      <UniqueIdentifier>{76b25e82-9f12-467e-a649-9f51a88d5a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{4265d2a4-a26d-4459-b745-f29991c3b57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SoundSystem">
+      <UniqueIdentifier>{e409e25a-ca85-4df7-8909-cb9dd88a4a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpriteSystem">
+      <UniqueIdentifier>{6eb1e171-359a-4b69-a42d-1ef6d95d5352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateSystem">
+      <UniqueIdentifier>{20f125b6-eb92-456e-81d7-379322aaa461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ThreadWorkers">
+      <UniqueIdentifier>{e4eb6c6f-f691-4674-97f5-725a4483223c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Types">
+      <UniqueIdentifier>{33fecb8d-e517-4682-ab5b-63adc7dfcb85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{a2556cf8-b50e-410b-8a2c-1a0a10d0368a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WindowSystem">
+      <UniqueIdentifier>{841ccd82-2654-458b-90b9-51d8f0250cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Components">
+      <UniqueIdentifier>{c3dd6f87-ffce-44b0-8eee-32c828a0c3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Core">
+      <UniqueIdentifier>{6429cd22-5da1-44a2-bb60-52352ee7429e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Systems">
+      <UniqueIdentifier>{1400d02c-a58f-4665-b503-8724ab09ce6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Elements">
+      <UniqueIdentifier>{b03b9b49-b26f-45ac-abc8-bc3effebf539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Specialized">
+      <UniqueIdentifier>{626a209a-683b-4060-bd4a-94d6636150f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StateSystem\States">
+      <UniqueIdentifier>{03545654-638a-4728-97b2-279565e36289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build">
+      <UniqueIdentifier>{3566e03b-3d71-44b9-aacd-fff2dc1c3304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media">
+      <UniqueIdentifier>{be2fff38-3cd0-4620-b9c6-86f582538203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Audio">
+      <UniqueIdentifier>{2ec145fd-8408-43cb-9ae1-db4c906f5f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Entities">
+      <UniqueIdentifier>{611bc13e-1ebd-4a57-be77-2abbf7b339b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Fonts">
+      <UniqueIdentifier>{15a983ba-0e98-4365-968e-97d14613b30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\GUI_Interfaces">
+      <UniqueIdentifier>{22c998d5-cb5b-4ca3-97a2-4a656f1f7b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\GUI_Styles">
+      <UniqueIdentifier>{3af9f99f-b630-442c-aa82-dc7603b97b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Maps">
+      <UniqueIdentifier>{a5e7ecd8-40a1-4bc8-bbff-ead198a601a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Particles">
+      <UniqueIdentifier>{e06ffabd-bb03-46c2-b106-c3570047ac38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Shaders">
+      <UniqueIdentifier>{46c71bc4-0033-499b-a16f-dc6383a2c681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Sounds">
+      <UniqueIdentifier>{cff9f7bf-7cad-40c3-a853-a2513d74245a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Spritesheets">
+      <UniqueIdentifier>{b11a3fbf-a388-4b4a-a7bc-60d869a3138a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Textures">
+      <UniqueIdentifier>{e264e0a0-41d4-4897-a91c-2b77b993e026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Build\media\Tilesheets">
+      <UniqueIdentifier>{75abfb7c-1fcc-4bc7-b23b-4f9f463823be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleSystem">
+      <UniqueIdentifier>{107fa422-6a33-4ee1-ae75-5177c680cf83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleSystem\Generators">
+      <UniqueIdentifier>{c0db7212-600d-4134-8b4c-26457e41c0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleSystem\Updaters">
+      <UniqueIdentifier>{453db30d-550f-477f-a93f-b7880338954b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Core\Entity_Manager.cpp">
+      <Filter>Source Files\ECS\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Core\S_Base.cpp">
+      <Filter>Source Files\ECS\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Core\System_Manager.cpp">
+      <Filter>Source Files\ECS\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Systems\S_Collision.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Systems\S_Control.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Systems\S_Movement.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Systems\S_Renderer.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Systems\S_SheetAnimation.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Systems\S_Sound.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS\Systems\S_State.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem\EventManager.cpp">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Elements\GUI_CheckBox.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Elements\GUI_DropDownMenu.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Elements\GUI_Label.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Elements\GUI_Scrollbar.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Elements\GUI_Sprite.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Elements\GUI_TextField.cpp">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Specialized\FileManager.cpp">
+      <Filter>Source Files\GUI\Specialized</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Specialized\VerticalDropDown.cpp">
+      <Filter>Source Files\GUI\Specialized</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI_Element.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI_Interface.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI_Manager.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSystem\Map.cpp">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSystem\TileMap.cpp">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSystem\TileSet.cpp">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSystem\Renderer.cpp">
+      <Filter>Source Files\WindowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowSystem\Window.cpp">
+      <Filter>Source Files\WindowSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadWorkers\FileLoader.cpp">
+      <Filter>Source Files\ThreadWorkers</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSystem\States\State_Loading.cpp">
+      <Filter>Source Files\StateSystem\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSystem\StateManager.cpp">
+      <Filter>Source Files\StateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSystem\Anim_Base.cpp">
+      <Filter>Source Files\SpriteSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSystem\Anim_Directional.cpp">
+      <Filter>Source Files\SpriteSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSystem\SpriteSheet.cpp">
+      <Filter>Source Files\SpriteSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem\SoundManager.cpp">
+      <Filter>Source Files\SoundSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\Emitter.cpp">
+      <Filter>Source Files\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem\ParticleSystem.cpp">
+      <Filter>Source Files\ParticleSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ECS\Components\C_Collidable.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\C_Controller.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\C_Drawable.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\C_Movable.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\C_Position.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\C_SoundEmitter.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\C_SoundListener.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\C_SpriteSheet.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Components\C_State.h">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Core\C_Base.h">
+      <Filter>Source Files\ECS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Core\Entity_Manager.h">
+      <Filter>Source Files\ECS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Core\S_Base.h">
+      <Filter>Source Files\ECS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Core\System_Manager.h">
+      <Filter>Source Files\ECS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Systems\S_Collision.h">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Systems\S_Control.h">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Systems\S_Movement.h">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Systems\S_Renderer.h">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Systems\S_SheetAnimation.h">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Systems\S_Sound.h">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\Systems\S_State.h">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\Binding.h">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\EventDetails.h">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\EventInfo.h">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\EventManager.h">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem\EventTypes.h">
+      <Filter>Source Files\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Elements\GUI_CheckBox.h">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Elements\GUI_DropDownMenu.h">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Elements\GUI_Label.h">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Elements\GUI_Scrollbar.h">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Elements\GUI_Sprite.h">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Elements\GUI_TextField.h">
+      <Filter>Source Files\GUI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\ECS_Types.h">
+      <Filter>Source Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\EntityEvents.h">
+      <Filter>Source Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS\EntityMessages.h">
+      <Filter>Source Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Specialized\FileManager.h">
+      <Filter>Source Files\GUI\Specialized</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Specialized\VerticalDropDown.h">
+      <Filter>Source Files\GUI\Specialized</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI_Element.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI_Event.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI_Interface.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI_Manager.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI_Style.h">
+      <Filter>Source Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem\Map.h">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem\MapDefinitions.h">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem\MapHelpers.h">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem\MapLoadee.h">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem\TileInfo.h">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem\TileMap.h">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem\TileSet.h">
+      <Filter>Source Files\MapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSystem\Renderer.h">
+      <Filter>Source Files\WindowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSystem\Window.h">
+      <Filter>Source Files\WindowSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Helpers.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\RandomGenerator.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Bitmask.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Directions.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Event_Queue.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadWorkers\FileLoader.h">
+      <Filter>Source Files\ThreadWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadWorkers\Worker.h">
+      <Filter>Source Files\ThreadWorkers</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSystem\States\State_Loading.h">
+      <Filter>Source Files\StateSystem\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSystem\BaseState.h">
+      <Filter>Source Files\StateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSystem\StateDependent.h">
+      <Filter>Source Files\StateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSystem\StateManager.h">
+      <Filter>Source Files\StateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSystem\StateTypes.h">
+      <Filter>Source Files\StateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSystem\Anim_Base.h">
+      <Filter>Source Files\SpriteSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSystem\Anim_Directional.h">
+      <Filter>Source Files\SpriteSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSystem\SpriteSheet.h">
+      <Filter>Source Files\SpriteSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem\SoundManager.h">
+      <Filter>Source Files\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem\SoundProps.h">
+      <Filter>Source Files\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\AudioManager.h">
+      <Filter>Source Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\FontManager.h">
+      <Filter>Source Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\ResourceManager.h">
+      <Filter>Source Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\TextureManager.h">
+      <Filter>Source Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\Communicator.h">
+      <Filter>Source Files\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\Message.h">
+      <Filter>Source Files\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\MessageHandler.h">
+      <Filter>Source Files\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer\Observer.h">
+      <Filter>Source Files\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedContext.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\BaseGenerator.h">
+      <Filter>Source Files\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\BaseUpdater.h">
+      <Filter>Source Files\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Emitter.h">
+      <Filter>Source Files\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ForceApplicator.h">
+      <Filter>Source Files\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ParticleContainer.h">
+      <Filter>Source Files\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\ParticleSystem.h">
+      <Filter>Source Files\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\AreaPosition.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\ColorRange.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\LinePosition.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\PointPosition.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\Properties.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\RandomColor.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\RandomLifespan.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\RandomSize.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\RandomVelocity.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\RotationRange.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\SizeRange.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Generators\Texture.h">
+      <Filter>Source Files\ParticleSystem\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Updaters\Collisions.h">
+      <Filter>Source Files\ParticleSystem\Updaters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Updaters\Drawables.h">
+      <Filter>Source Files\ParticleSystem\Updaters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Updaters\Forces.h">
+      <Filter>Source Files\ParticleSystem\Updaters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Updaters\Interpolator.h">
+      <Filter>Source Files\ParticleSystem\Updaters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Updaters\Lifespan.h">
+      <Filter>Source Files\ParticleSystem\Updaters</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem\Updaters\Spatial.h">
+      <Filter>Source Files\ParticleSystem\Updaters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Build\audio.cfg">
+      <Filter>Source Files\Build</Filter>
+    </None>
+    <None Include="Build\fonts.cfg">
+      <Filter>Source Files\Build</Filter>
+    </None>
+    <None Include="Build\keys.cfg">
+      <Filter>Source Files\Build</Filter>
+    </None>
+    <None Include="Build\textures.cfg">
+      <Filter>Source Files\Build</Filter>
+    </None>
+    <None Include="Build\media\Audio\Electrix_NES.ogg">
+      <Filter>Source Files\Build\media\Audio</Filter>
+    </None>
+    <None Include="Build\media\Audio\footstep.ogg">
+      <Filter>Source Files\Build\media\Audio</Filter>
+    </None>
+    <None Include="Build\media\Audio\TownTheme.ogg">
+      <Filter>Source Files\Build\media\Audio</Filter>
+    </None>
+    <None Include="Build\media\Entities\Player.entity">
+      <Filter>Source Files\Build\media\Entities</Filter>
+    </None>
+    <None Include="Build\media\Entities\Skeleton.entity">
+      <Filter>Source Files\Build\media\Entities</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\BasicDropdown.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\FileManager.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\MainMenu.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\MainMenuToolkit.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\MapEditorNewMap.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\MapEditorSelectionOptions.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\MapEditorTileSelect.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\MapEditorTools.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Interfaces\MapEditorTop.interface">
+      <Filter>Source Files\Build\media\GUI_Interfaces</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\BasicDropdown.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\BasicDropdownEntry.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\BasicDropdownMenu.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\BasicSlider.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\BasicTextfield.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\CenteredLabel.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\CloseButton.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\FileEntry.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\FileManager.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\FileTextfield.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\FolderEntry.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MainMenu.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MainMenuLabel.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MainMenuTitle.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MainMenuToolkit.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorBrushTool.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorEraserTool.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorNewMap.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorPaintTool.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorPanTool.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorSelectionOptions.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorSelectionOptionsButton.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorSelectTool.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorSingleCharButton.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorTileSelect.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorTileSprite.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorTools.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorTop.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\MapEditorTopButton.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\ParentDirEntry.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\SaveButton.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\GUI_Styles\SimpleLabel.style">
+      <Filter>Source Files\Build\media\GUI_Styles</Filter>
+    </None>
+    <None Include="Build\media\Maps\map1.map">
+      <Filter>Source Files\Build\media\Maps</Filter>
+    </None>
+    <None Include="Build\media\Tilesheets\Sheet1.tilesheet">
+      <Filter>Source Files\Build\media\Tilesheets</Filter>
+    </None>
+    <None Include="Build\media\Spritesheets\Player.sheet">
+      <Filter>Source Files\Build\media\Spritesheets</Filter>
+    </None>
+    <None Include="Build\media\Spritesheets\Skeleton.sheet">
+      <Filter>Source Files\Build\media\Spritesheets</Filter>
+    </None>
+    <None Include="Build\media\Sounds\footstep.sound">
+      <Filter>Source Files\Build\media\Sounds</Filter>
+    </None>
+    <None Include="Build\media\Shaders\default.frag">
+      <Filter>Source Files\Build\media\Shaders</Filter>
+    </None>
+    <None Include="Build\media\Shaders\default.vert">
+      <Filter>Source Files\Build\media\Shaders</Filter>
+    </None>
+    <None Include="Build\media\Particles\AutumnLeaf.particle">
+      <Filter>Source Files\Build\media\Particles</Filter>
+    </None>
+    <None Include="Build\media\Particles\Blood.particle">
+      <Filter>Source Files\Build\media\Particles</Filter>
+    </None>
+    <None Include="Build\media\Particles\Flame.particle">
+      <Filter>Source Files\Build\media\Particles</Filter>
+    </None>
+    <None Include="Build\media\Particles\MenuFlame.particle">
+      <Filter>Source Files\Build\media\Particles</Filter>
+    </None>
+    <None Include="Build\media\Particles\MenuSmoke.particle">
+      <Filter>Source Files\Build\media\Particles</Filter>
+    </None>
+    <None Include="Build\media\Particles\Smoke.particle">
+      <Filter>Source Files\Build\media\Particles</Filter>
+    </None>
+    <None Include="Build\media\Particles\WaterSparkle.particle">
+      <Filter>Source Files\Build\media\Particles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Build\media\Fonts\Vegur-Regular.otf">
+      <Filter>Source Files\Build\media\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Build\media\Textures\ADOM-OGA-UI.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\AutumnLeaf.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\Brush-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\Close-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\Eraser-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\File-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\flame.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\FolderBack-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\Folder-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\intro.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\PaintCan-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\Pan-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\PlayerSheet.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\Save-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\Select-Icon.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\SkeletonSheet.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\smoke.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\testsheet.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+    <Image Include="Build\media\Textures\tilesheet.png">
+      <Filter>Source Files\Build\media\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+Interface MapEditorTop MapEditorTop.style 0 1 Immovable NoTitle ""
+Element Label New 32 0 MapEditorTopButton.style Content "New"
+Element Label Load 94 0 MapEditorTopButton.style Content "Load"
+Element Label Save 156 0 MapEditorTopButton.style Content "Save"
+Element Label SaveAs 218 0 MapEditorTopButton.style Content "Save As..."
+Element Label Exit 280 0 MapEditorTopButton.style Content "Exit"

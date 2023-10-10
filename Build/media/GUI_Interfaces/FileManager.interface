@@ -1,0 +1,9 @@
+Interface FileManager FileManager.style 0 0 Movable Title "File Manager"
+Element Scrollbar VSlider 0 0 BasicSlider.style Control Vertical
+Element Label Directory 0 0 SimpleLabel.style Control ""
+Element Label ParentDir 16 0 ParentDirEntry.style Content "../"
+Element Label FolderEntry 16 33 FolderEntry.style Content ""
+Element Label FileEntry 16 53 FileEntry.style Content ""
+Element TextField FileName 0 280 FileTextfield.style Control ""
+Element Label ActionButton 202 280 SaveButton.style Control "Load"
+Element Label CloseButton 250 280 CloseButton.style Control "Close"

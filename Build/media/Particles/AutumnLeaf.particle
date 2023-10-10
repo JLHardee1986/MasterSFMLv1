@@ -1,0 +1,9 @@
+Name AutumnLeaf
+AreaPosition 32 32 0
+ColorRange 255 255 255 255 255 255 255 255
+SizeRange 4 5
+RandomLifespan 10 10
+RandomVelocity -10 10 30 35 0 10
+RotationRange 0 180
+Texture AutumnLeaf
+Properties 1 0
